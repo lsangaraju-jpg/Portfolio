@@ -1,0 +1,115 @@
+/* Main Page Container */
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #caedee;
+}
+
+.aboutContainer {
+  background: #caedee;
+  padding: 40px 5vw; /* responsive horizontal padding */
+  font-family: "Poppins", sans-serif;
+
+  /* alignment */
+  max-width: 1200px;
+  margin: 0 auto;        /* centers content */
+  width: 100%;
+
+  /* remove card look */
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+
+  box-sizing: border-box;
+}
+
+
+.aboutHeading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2e5266;
+  margin-bottom: 20px;
+}
+
+.aboutDescription {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 14px;
+}
+
+/* =======================
+   CONTACT SECTION
+======================= */
+.contactContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #428fc2;
+  width: 100%;
+  padding: 15px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}
+
+.contactBox {
+  background: #dadfe1;
+  color: #2e5266;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  flex: 1;
+  max-width: 300px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contactBox h3 {
+  margin-bottom: 4px;
+  font-size: 1.2rem;
+}
+
+.contactBox p {
+  margin: 5px 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactBox:hover {
+  transform: scale(1.02);
+}
+
+/* Icons */
+.iconFull {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  max-height: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.iconFull:hover {
+  transform: scale(1.15);
+}
+
+
+
+@media (max-width: 768px) {
+  .aboutContainer {
+    padding: 30px 20px;
+  }
+
+  .aboutHeading {
+    font-size: 2.1rem;
+  }
+
+  .contactContainer {
+    padding: 20px 10px;
+  }
+}

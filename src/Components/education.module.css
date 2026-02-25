@@ -1,0 +1,63 @@
+.mainContainer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #caedee;
+}
+
+.educationContainer {
+  display: flex;
+  align-items: center;
+  background: #f4f7f8;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  width: 100%;
+}
+.educationContainer:hover {
+  transform: scale(1.02) translateY(-2px);
+  transition: transform 0.2s ease-in-out, background 0.2s ease-in-out;
+}
+
+.educationLogo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+.mainheading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #102d3d;
+  margin-bottom: 0.1px;
+}
+
+.educationContent {
+  flex: 1;
+  text-align: left;
+}
+
+.educationHeading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e5266;
+  margin-bottom: 10px;
+}
+
+.educationSubheading {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.educationDescription {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+}

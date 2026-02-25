@@ -1,0 +1,103 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #caedee;
+  border-radius: 8px;
+  margin: 0%;
+}
+
+.projectContainer {
+  display: flex;
+  align-items: center;
+  background: #f4f7f8;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  width: 100%;
+}
+.projectContainer:hover {
+  transform: scale(1.02) translateY(-2px);
+  transition: transform 0.2s ease-in-out, background 0.2s ease-in-out;
+}
+
+.projectLogo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.projectContent {
+  flex: 1;
+  text-align: left;
+}
+.mainheading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #102d3d;
+  margin-bottom: 0.1px;
+}
+
+.projectHeading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e5266;
+  margin-bottom: 0.1px;
+}
+
+.projectSubheading {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 8px;
+}
+.subheading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2e5266;
+  margin-bottom: 10px;
+}
+.projectDescription {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* GitHub Button Styling */
+.githubButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #428fc2; /* Bright blue */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  margin-top: 15px;
+  width: 100%; /* Make it stretch across the container */
+  max-width: 200px;
+  height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* GitHub Button Hover Effect */
+.githubButton:hover {
+  background-color: #0099e5; /* Slightly darker blue */
+  transform: scale(1.02);
+}
+
+/* GitHub Icon */
+.githubIcon {
+  margin-right: 10px;
+  font-size: 20px;
+}

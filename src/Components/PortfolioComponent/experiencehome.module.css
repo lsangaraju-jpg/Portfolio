@@ -1,0 +1,118 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #c8102e; /* CMU red, optional */
+}
+/* Container styling */
+
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #caedee;
+  border-radius: 8px;
+  margin: 0%;
+}
+
+/* Grid layout for 3-column format */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+  max-width: 1300px;
+  padding: 20px;
+}
+
+/* Individual card styling */
+.componentContainer {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for cards */
+.componentContainer:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Image styling */
+.image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Titles */
+h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #1e3d4e;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #2e5266;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Scroll animation effects */
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .gridContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .componentContainer {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+}
