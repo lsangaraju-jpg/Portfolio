@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.dc6c9131.css",
+    "main.js": "/portfolio/static/js/main.e8bd0186.js",
+    "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
+    "static/media/foodapp.png": "/portfolio/static/media/foodapp.72fa6b842c85b1ff79f4.png",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.0231dfa1af211658b931.jpg",
+    "static/media/OnlineHouse.webp": "/portfolio/static/media/OnlineHouse.fb261cb571af9543c6a5.webp",
+    "static/media/tcs.png": "/portfolio/static/media/tcs.6e4212d9e06b615a9cd9.png",
+    "static/media/jntua.png": "/portfolio/static/media/jntua.bcaa30038a3d559c9b88.png",
+    "static/media/cmu.png": "/portfolio/static/media/cmu.1ca8963c8903270e9134.png",
+    "static/media/celonis.png": "/portfolio/static/media/celonis.13dc69806ce2d0b9827f.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.a95afc06831647f5fca2.png",
+    "static/media/cmulogo.png": "/portfolio/static/media/cmulogo.935b5715017e6420f4a8.png",
+    "static/media/aws.jpg": "/portfolio/static/media/aws.223364b9b3c059f7cf82.jpg",
+    "static/media/google.png": "/portfolio/static/media/google.79d0d5484c6e605f5dbe.png",
+    "static/media/github.png": "/portfolio/static/media/github.746ec8f0bc97208f903e.png",
+    "index.html": "/portfolio/index.html",
+    "main.dc6c9131.css.map": "/portfolio/static/css/main.dc6c9131.css.map",
+    "main.e8bd0186.js.map": "/portfolio/static/js/main.e8bd0186.js.map",
+    "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc6c9131.css",
+    "static/js/main.e8bd0186.js"
+  ]
+}
