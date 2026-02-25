@@ -43,4 +43,4 @@ Then in GitHub: **Repo → Settings → Pages**
 - Source: `gh-pages` branch
 
 ## Notes
-- This project uses **hash routing** (you’ll see `#/` in the URL on GitHub Pages). That’s normal for SPA deployments on Pages.
+- This project uses **hash routing** (you’ll see `#/` in the URL on GitHub Pages). That is normal for SPA deployments on Pages.
