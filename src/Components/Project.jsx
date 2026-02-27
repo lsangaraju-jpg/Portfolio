@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./project.module.css";
 import { FaGithub } from "react-icons/fa";
 import foodapp from "../assets/foodapp.png";
+import chatbot from "../assets/chatbot.webp";
 import OnlineHouse from "../assets/OnlineHouse.webp";
 
 
@@ -13,7 +14,7 @@ export default function Project() {
 
         {/* Food App - Cookify */}
         <div className={styles.projectContainer}>
-          <img src={foodapp} alt="Spammer" className={styles.projectLogo} />
+          <img src={foodapp} alt="foodapp" className={styles.projectLogo} />
           <div className={styles.projectContent}>
             <h1 className={styles.projectHeading}>
             Food App - Cookify (January 2024 - May2024)
@@ -70,6 +71,37 @@ export default function Project() {
             </p>
             <a
               href="https://github.com/lsangaraju-jpg/Leasing_House_Management_System_MS_2025"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.githubButton}
+            >
+              <FaGithub className={styles.githubIcon} /> View on GitHub
+            </a>
+          </div>
+        </div>
+
+                {/* Chatbot */}
+                <div className={styles.projectContainer}>
+          <img src={chatbot} alt="chatbot" className={styles.projectLogo} />
+          <div className={styles.projectContent}>
+            <h1 className={styles.projectHeading}>
+            Chatbot (August 2020 - December 2020)
+            </h1>
+            <p className={styles.projectDescription}>
+              Developed an interactive chatbot in Google Colab, leveraging
+              advanced Natural Language Processing (NLP) techniques to enhance
+              response accuracy and user experience. Built using Python in a
+              Jupyter Notebook, the chatbot integrates a custom knowledge base
+              (chatbot.txt) to provide contextually relevant answers for data
+              science-related queries. Implemented NLTK, spaCy, and Hugging
+              Face’s Transformers for tokenization, named entity recognition,
+              and semantic understanding, enabling more natural and intelligent
+              conversations. This project showcases my expertise in Machine
+              Learning, NLP, and AI-driven chatbot development, focusing on
+              response optimization and user interaction.
+            </p>
+            <a
+              href="https://github.com/lsangaraju-jpg/Chatbot"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.githubButton}

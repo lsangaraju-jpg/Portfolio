@@ -54,7 +54,7 @@ export default function Navbar({ navBackground, navShadow }) {
         </NavLink>
 
         <a
-          href="https://drive.google.com/file/d/1S4qw5qiojNQUKPilruLPaKzoyfRAs747/view?usp=sharing"
+          href="https://drive.google.com/file/d/1bchttytnfOhuGTt3-V2dTkl23DE2xDvj/view?usp=sharing"
           className={styles.navItem}
           target="_blank"
           rel="noopener noreferrer"
