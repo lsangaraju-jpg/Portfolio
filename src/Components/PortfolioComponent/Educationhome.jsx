@@ -27,6 +27,10 @@ export default function Educationhome() {
             Earned my Master’s degree in Information Systems with a CGPA of
             3.70 from CMU.
           </h4>
+
+          <h5>
+            (SAP and Business Data Analytics)
+          </h5>
         </div>
 
         {/* JNTUA */}
