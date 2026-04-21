@@ -16,7 +16,7 @@ export default function Education() {
               Central Michigan University (January 2024 - December 2025)
             </h1>
             <p className={styles.educationDescription}>
-              Earned my Master’s in Information Systems with a CGPA of
+              Earned my Master’s degree in Information Systems with a CGPA of
               3.70 from CMU. Developed expertise in SAP, Business Data Analytics, full-stack development,
               cloud computing, and scalable software solutions. Worked as a
               Graduate Teaching Assistant, teaching Intro to Programming
