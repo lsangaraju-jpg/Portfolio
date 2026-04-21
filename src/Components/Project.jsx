@@ -17,7 +17,7 @@ export default function Project() {
           <img src={foodapp} alt="foodapp" className={styles.projectLogo} />
           <div className={styles.projectContent}>
             <h1 className={styles.projectHeading}>
-            Food App - Cookify (January 2024 - May2024)
+            Food App - Cookify (January 2024 - May 2024)
             </h1>
             <p className={styles.projectDescription}>
             Cookify is a simple and interactive food recipe discovery web application that helps 

@@ -14,7 +14,7 @@ export default function Experience() {
           <img src={cmulogo} alt="Central Michigan University" className={styles.experienceLogo} />
           <div className={styles.experienceContent}>
             <h1 className={styles.experienceHeading}>
-              Central Michigan University (August 2025 - December 2025)
+              Central Michigan University (January 2025 - December 2025)
             </h1>
             <h4 className={styles.subheading}>Graduate Teaching Assistant</h4>
             <p className={styles.experienceDescription}>
@@ -32,7 +32,7 @@ export default function Experience() {
           <img src={TataLogo} alt="Tata Consultancy Services" className={styles.experienceLogo} />
           <div className={styles.experienceContent}>
             <h1 className={styles.experienceHeading}>
-              Tata Consultancy Services (July 2019 - December 2023)
+              Tata Consultancy Services (January 2020 - December 2023)
             </h1>
             <h4 className={styles.subheading}>Software Engineer</h4>
             <p className={styles.experienceDescription}>
@@ -53,7 +53,7 @@ export default function Experience() {
           <img src={progressLogo} alt="Progress" className={styles.experienceLogo} />
           <div className={styles.experienceContent}>
             <h1 className={styles.experienceHeading}>
-              Progress Software (August 2018 - June 2019)
+              Progress Software (August 2018 - July 2019)
             </h1>
             <h4 className={styles.subheading}>Internship</h4>
             <p className={styles.experienceDescription}>
