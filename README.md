@@ -1,4 +1,4 @@
-# Loki Portfolio (React)
+# Portfolio (React)
 
 This is a React portfolio site (Create React App) adapted from the provided template.
 
