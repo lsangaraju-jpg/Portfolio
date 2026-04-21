@@ -24,7 +24,7 @@ export default function Educationhome() {
           </h2>
 
           <h4>
-            Earned my Master’s degree in Information Systems with a CGPA of
+            Master’s degree in Information Systems with a CGPA of
             3.70 from CMU.
           </h4>
 
@@ -53,7 +53,7 @@ export default function Educationhome() {
           </h3>
 
           <h4>
-            Completed my Bachelor's in Electronics and Communication Engineering
+            Bachelor's in Electronics and Communication Engineering
             with a CGPA of 8.10
           </h4>
         </div>
