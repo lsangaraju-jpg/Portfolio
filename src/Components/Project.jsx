@@ -28,7 +28,10 @@ export default function Project() {
             for better structure and readability. React Hooks like useState and useEffect are used 
             to manage data, handle user interactions, and fetch recipe information from an external 
             food recipe API. HTML and CSS Modules are used to design a clean and responsive interface, 
-            while small animations and GIFs are added to improve the user experience and branding.
+            while small animations and GIFs are added to improve the user experience and branding. 
+            Overall, Cookify demonstrates how modern web technologies can be used to build a dynamic, 
+            user-friendly application that consumes real-time API data and presents it in an intuitive 
+            way.
             </p>
             <a
               href="https://github.com/lsangaraju-jpg/Food_App_Cookify"
